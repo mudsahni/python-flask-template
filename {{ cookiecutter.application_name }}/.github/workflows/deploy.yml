@@ -65,8 +65,8 @@ jobs:
     env:
       PROJECT_ID: paved-road-intuit
       REGION: us-central1
-      IMAGE_NAME: {{ cookiecutter.artifact_id_slug }}
-      CLUSTER_NAME: {{ cookiecutter.artifact_id_slug }}-cluster
+      IMAGE_NAME: {{ cookiecutter.application_name }}
+      CLUSTER_NAME: {{ cookiecutter.application_name }}-cluster
 
 {% raw %}
 
